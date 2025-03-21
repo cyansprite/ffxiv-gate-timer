@@ -6,6 +6,12 @@ Gate timer for FFXIV, wanted to learn React and my Bae was manually setting time
 
 [Go Here](https://cyansprite.github.io/ffxiv-gate-timer/)
 
+# TODO
+
+- [ ] Make the theme not.. blue
+- [ ] Maybe options or decide not to
+- [ ] Allow pre-emptive alert
+- [ ] Options for sounds
 
 # SquareEnix Copyright
 
