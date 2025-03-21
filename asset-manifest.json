@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ffxiv-gate-timer/static/css/main.14933c63.css",
+    "main.js": "/ffxiv-gate-timer/static/js/main.cd001988.js",
+    "static/js/453.7ffd1977.chunk.js": "/ffxiv-gate-timer/static/js/453.7ffd1977.chunk.js",
+    "static/media/fate_start.mp3": "/ffxiv-gate-timer/static/media/fate_start.cf919938dda95da0f965.mp3",
+    "index.html": "/ffxiv-gate-timer/index.html",
+    "main.14933c63.css.map": "/ffxiv-gate-timer/static/css/main.14933c63.css.map",
+    "main.cd001988.js.map": "/ffxiv-gate-timer/static/js/main.cd001988.js.map",
+    "453.7ffd1977.chunk.js.map": "/ffxiv-gate-timer/static/js/453.7ffd1977.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14933c63.css",
+    "static/js/main.cd001988.js"
+  ]
+}
