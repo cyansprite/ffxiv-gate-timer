@@ -55,6 +55,8 @@ function App() {
         }
          >We need autoplay permission.</Alert>)
      }
+
+    <p class="bottom">Sound file and any reference to FFXIV, Gold Saucer or Gates © SQUARE ENIX</p>
     </div>
   );
 }
