@@ -8,9 +8,9 @@ Gate timer for FFXIV, wanted to learn React and my Bae was manually setting time
 
 # TODO
 
-- [ ] Make the theme not.. blue
-- [ ] Maybe options or decide not to
-- [ ] Allow pre-emptive alert
+- [x] Make the theme not.. blue
+- [x] Maybe options or decide not to
+- [ ] Allow pre-emptive alert (currently it's allow 10 seconds before)
 - [ ] Options for sounds
 
 # SquareEnix Copyright
