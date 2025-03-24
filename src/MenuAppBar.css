@@ -1,0 +1,13 @@
+.flexer {
+ padding-left: 20px;
+ display: inline-flex;
+}
+
+.toolBar {
+ text-align: left;
+ display: inline-flex;
+}
+
+.icon {
+  margin-top: 6px;
+}

@@ -7,6 +7,9 @@ export default class Util {
     return isFirefox && !navigator.getAutoplayPolicy("mediaelement") === "allowed";
   }
 
+  // TODO
+  // Util.audio.volume = 50;
+
   static playFateSound() {
     try {
       Util.audio.play();
@@ -14,7 +17,6 @@ export default class Util {
 
     }
   }
-
 
   static setCookie(name, value, exdays = 999999) {
     const d = new Date();
