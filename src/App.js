@@ -143,7 +143,7 @@ function App() {
             </div>
 
             <Typography className="bottom" variant="p" component="p" color="secondary">
-              Sound file and any reference to FFXIV, Gold Saucer or Gates © SQUARE ENIX
+              Sound file, Cactuar Icon and any reference to FFXIV, Gold Saucer or Gates © SQUARE ENIX
             </Typography>
           </div>
         </div>
