@@ -2,6 +2,10 @@
 
 Gate timer for FFXIV, wanted to learn React and my Bae was manually setting timers.
 
+# Preview:
+
+![preview-image](example.png "Preview")
+
 # How to use it?
 
 [Go Here](https://cyansprite.github.io/ffxiv-gate-timer/)
