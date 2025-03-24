@@ -39,7 +39,7 @@ Timer.getProgress = () => {
 
   return {
     progress: Math.floor(percent),
-    timeUntil: `${19 - mod}:${String(60 - secs).padStart(2, '0')}`
+    timeUntil: `${19 - mod}:${String(60 - secs - 1).padStart(2, '0')}`
   }
 };
 

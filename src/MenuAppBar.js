@@ -11,13 +11,13 @@ import LightModeIcon from '@mui/icons-material/LightMode';
 import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormGroup from '@mui/material/FormGroup';
-import * as colors from '@mui/material/colors';
 import {
   FormControl,
   InputLabel,
   MenuItem,
   Select,
 } from '@mui/material';
+import SoundSlider from './SoundSlider';
 
 export default function MenuAppBar({
   isNotifying,
@@ -54,6 +54,9 @@ export default function MenuAppBar({
           </Typography>
 
           <FormGroup class="flexer">
+            {
+              isNotifying && <SoundSlider></SoundSlider>
+            }
 
             <Box sx={{ mr: 3, mt: 2.5 }}>
               <FormControlLabel
@@ -125,7 +128,6 @@ export default function MenuAppBar({
                 </Select>
               </FormControl>
             </Box>
-
           </FormGroup>
 
         </Toolbar>

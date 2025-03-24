@@ -2,13 +2,16 @@ import fate_start from './sound/fate_start.mp3';
 
 export default class Util {
   static audio = new Audio(fate_start);
+
   static getPermissionForAutoPlay() {
     var isFirefox = typeof InstallTrigger !== 'undefined';
     return isFirefox && !navigator.getAutoplayPolicy("mediaelement") === "allowed";
   }
 
-  // TODO
-  // Util.audio.volume = 50;
+  static setVolume(volume) {
+    console.log(volume / 100.0);
+    Util.audio.volume = volume / 100.0;
+  }
 
   static playFateSound() {
     try {
@@ -42,5 +45,14 @@ export default class Util {
 
   static getBoolCookie(cname) {
     return Util.getCookie(cname) === 'true';
+  }
+
+  static getIntCookie(cname) {
+    try {
+      const c = Util.getCookie(cname)
+      return parseInt(c)
+    } catch(e) {
+      return undefined
+    }
   }
 }

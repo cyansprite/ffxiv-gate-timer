@@ -108,7 +108,6 @@ function App() {
            }}>
         <div
            style={{
-            backgroundColor: {backgroundColor},
             background: `radial-gradient(circle at 50%, ${backgroundColor}, ${secondary} 9999px, ${backgroundColor})`,
             height: '100vh',
            }}>
@@ -141,6 +140,12 @@ function App() {
                 }
               </Paper>
             </div>
+            {/*
+            <button onClick={Util.playFateSound}>
+              Test Sound
+            </button>
+            */
+            }
 
             <Typography className="bottom" variant="p" component="p" color="secondary">
               Sound file, Cactuar Icon and any reference to FFXIV, Gold Saucer or Gates © SQUARE ENIX
